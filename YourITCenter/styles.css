@@ -1,0 +1,120 @@
+
+body {
+  background-color: #111827;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.custom-navbar {
+  background-color: #343a40;
+  /* Set the background color of the navbar */
+  color: white;
+  /* Set the text color to white */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+  color: white !important;
+  /* Override Bootstrap's default text color */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #de5832 !important;
+  /* Override Bootstrap's default link color */
+}
+
+.custom-search:hover {
+  background-color: #de5832 !important;
+  /*Override Bootstrap's default link color*/
+}
+
+.custom-toggle {
+  color: white !important;
+  /* Override Bootstrap's default text color */
+}
+
+.nav-divider {
+  border-right: 1px solid #ffffff;
+  /* Adjust the border color and style as needed */
+  height: 15px;
+  /* Adjust the height of the line as needed */
+  margin: 13px 10px;
+  /* Adjust the margin as needed */
+  padding-top: 4px;
+  opacity: 60%;
+}
+
+
+
+.product-card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #1f2937;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {}
+
+
+.toast {
+  display: none;
+  /* Hide the toast by default */
+}
+
+.custom-list {
+  background-color: #1f2937;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.custom-list:hover {
+  background-color: #de5832;
+  color: #fff;
+}
+.small-input {
+  width: 40px; /* Adjust the width as needed */
+  height: 35px;
+}
+
+.logo {
+  max-width: 200px; /* Adjust the maximum width of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.dropdown-menu a:hover{
+  color: #de5832 !important;
+  background-color: #111827 !important;
+}
+
+.delivered-text {
+  display: inline-block;
+  padding: 2px 6px;
+  background-color: #111827;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.delivery-img{
+  height: 85px;
+  width: 86px;
+  /* Set the desired height */
+  object-fit: cover;
+  /* Ensure the image covers the entire space */
+
+}
+
+.pagination{
+  justify-content: center;
+}
+.pagination li a{
+  background-color: #1f2937 !important;
+  color: #fff !important;
+}
+.pagination .active a{
+  background-color: #de5832 !important;
+  color: #fff !important;
+}
+.pagination li a:hover{
+  background-color: #de5832 !important;
+}

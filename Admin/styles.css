@@ -1,0 +1,161 @@
+/* styles.css */
+
+body {
+    padding-top: 0px;
+    background-color: #111827;
+    color: #fff;
+    /* Adjust the top padding to accommodate the fixed navbar */
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #1f2937;
+    /* Updated color */
+    color: #fff;
+    /* Light text color */
+    position:fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#sidebar .navbar-brand {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #39424e;
+    /* Add a border for separation */
+    z-index: 1;
+}
+
+#sidebar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#sidebar .navbar-nav .nav-link i {
+    margin-right: 8px;
+}
+
+#content {
+    padding: 15px;
+    background-color: #111827;
+    color: #fff;
+    padding-left: 275px;
+    z-index: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    #content {
+        padding-left: 15px;
+    }
+    .container-fluid{
+        padding-left: 15px;
+        transform: translate(-250px, 0px);
+        z-index: 2;
+    }
+    .your-profile-icon{
+        padding-left: 255px;
+    }
+    #sidebar{
+        padding-top: 50px;
+    }
+    .top-bar{
+    z-index: 2;
+
+        position: relative;
+    }
+}
+
+.top-bar {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    background-color: #1f2937;
+    width: 100%;
+    padding-left: 250px;
+    /* z-index: 2; */
+    position: relative;
+  }
+  
+  .top-bar .row {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar h2 {
+    margin-bottom: 0;
+  }
+  
+  .top-bar button {
+    margin-right: 10px;
+  }
+  
+  .top-bar i {
+    color: #fff;
+  }
+  
+
+  /* LOGIN */
+.display-1 {
+    color: #465468;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo {
+    max-width: 400px; /* Adjust the maximum width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.delivery-img{
+    height: 85px;
+    width: 86px;
+    /* Set the desired height */
+    object-fit: cover;
+    /* Ensure the image covers the entire space */
+  
+  }
+
+  .delivered-text {
+    display: inline-block;
+    padding: 2px 6px;
+    background-color: #111827;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .pagination{
+    justify-content: center;
+  }
+  .pagination li a{
+    background-color: #1f2937 !important;
+    color: #fff !important;
+  }
+  .pagination .active a{
+    background-color: #de5832 !important;
+    color: #fff !important;
+  }
+  .pagination li a:hover{
+    background-color: #de5832 !important;
+  }
